@@ -69,12 +69,13 @@ export const WishButton = styled.div<WishButtonProps>`
   :hover {
     transform: scale(1.2);
     transition: 1s;
+    box-shadow: 5px 5px 20px yellow;
   }
 
   p {
     font-size: 20px;
     margin: 0;
-    color: white;
+    color: yellow;
   }
 `;
 
